@@ -5,7 +5,7 @@ import SIgn_img from './SIgn_img'
 import { NavLink } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
 
@@ -58,11 +58,11 @@ const Home = () => {
                 position: "top-center",
             });
         } else if (date === "") {
-             toast.error('date field is requred',{
+             toast.error('date field is required',{
                 position: "top-center",
             });
         } else if (password === "") {
-             toast.error('password field is requred',{
+             toast.error('password field is required',{
                 position: "top-center",
             });
         } else if (password.length < 5) {
